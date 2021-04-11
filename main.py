@@ -98,6 +98,7 @@ def key_event(event):
 
 # Configure window
 root = tk.Tk()
+root.title("recorder")
 word_label = tk.Label(root, text=word_text, font=("",24))
 
 record_button = tk.Button(text="record", command=record)
